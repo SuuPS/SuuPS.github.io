@@ -1,0 +1,87 @@
+@media only screen and (max-width: 530px){
+	.container{
+		width: 100%;
+	}
+.menu{display: none;}
+.banner-left{width: 420px;}
+.banner input{height: 40px;width: 380px;}
+
+.maps-h1{
+	margin: 90px 0px;
+	text-align: center;
+	font-size: 30px;
+}
+.maps{display: block;text-align: center;}
+.left-text{
+	width: 410px;
+	margin: 0 auto;
+}
+.right-map{width: 410px;}
+.right-map-img{display: none;}
+.right-map iframe{
+	height: 240px;
+	width: 100%;
+	text-align: center;
+	position: static;
+	margin-top: 240px;
+}
+
+.google-maps-icon{
+	display: block;
+	transition: 0.3s;
+	margin-left: 13%;
+	position: absolute;
+	top: -30px;
+	width: 300px;
+}
+
+
+.bg-block{
+	margin-top: 40px;
+	width: 100%;
+	height: 600px;
+	background-color: #F1F1F2;
+}
+.slider h1{
+	font-size: 30px;
+}
+.left-slid{;
+	width: 90%;
+}
+.flex-left{
+	justify-content: center;
+}
+.left-slid h2{
+	font-size: 22px;
+}
+.left-slid h3{
+	margin-top: 35px;
+	font-size: 16px;
+}
+
+.form{
+	text-align: center;
+	margin: 0 auto;
+	width: 100%;
+}
+.form h1{
+	margin-top: 90px;
+	margin-bottom: 70px;
+	font-size: 28px;
+}
+.form h2{
+	margin-bottom: 60px;
+	font-size: 22px;
+}
+.mail-2 input{
+	border-radius: 6px;
+	width: 280px;
+	height: 55px;
+	border: 1px solid #5A626E;
+}
+.mail-2 a{
+	padding: 16px 20px;
+	font-size: 16px;
+}
+
+}

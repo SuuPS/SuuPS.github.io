@@ -1,0 +1,117 @@
+@media only screen and (max-width: 420px){
+.header{
+	text-align: center;
+	padding-top: 10px;
+	display: block;
+	height: 60px;
+}
+.banner-left{width: 360px;}
+.banner input{width: 300px;height: 40px}
+.banner-left h1{font-size: 36px;}
+
+/*Адаптивная кнопка меню*/
+.menu-btn{display: inline-block;}
+#sidebar h1{font-size: 32px;}
+#sidebar ul li{font-size: 22px;}
+header{height: 600px;}
+
+.left-text{
+	width: 355px;
+	margin: 0 auto;
+}
+.right-map{width: 355px;}
+.right-map-img{display: none;}
+.right-map iframe{
+	height: 240px;
+	width: 355px;
+	text-align: center;
+	position: static;
+	margin-top: 240px;
+}
+
+.google-maps-icon{margin-left: 10%;width: 280px;}
+
+.slider h1{
+	font-size: 28px;
+}
+.left-slid{;
+	width: 90%;
+}
+.flex-left{
+	justify-content: center;
+}
+.left-slid h2{
+	font-size: 18px;
+}
+.left-slid h3{
+	margin-top: 35px;
+	font-size: 16px;
+}
+
+.form{
+	text-align: center;
+	margin: 0 auto;
+	width: 360px;
+}
+.form h1{
+	margin-top: 90px;
+	margin-bottom: 70px;
+	font-size: 26px;
+}
+.form h2{
+	margin-bottom: 60px;
+	font-size: 18px;
+}
+.mail-2 input{
+	border-radius: 6px;
+	width: 250px;
+	height: 45px;
+	border: 1px solid #5A626E;
+}
+.mail-2 a{
+	padding: 14px 10px;
+	font-size: 16px;
+}
+
+ .bg-footer{
+ 	background-color: #F1F1F2;
+ 	width: 100%;
+ 	height: 320px;
+ }
+
+ .footer{
+ 	margin-top: 60px;
+ 	height: 320px;
+ 	display: block;
+ 	text-align: unset;
+ }
+
+ .fotter-menu{
+ margin-left: 5%;
+ display: block;
+}
+  .fotter-menu a{
+  	text-align: unset;
+  	display: inline-block;
+  	text-decoration: none;
+  	font-size: 16px;
+  	margin: 0px 0px;
+  }
+  .fotter-menu img{
+  	display: none;
+  }
+    .fotter-menu h5{
+    	margin-top: 10px;
+    }
+.block-img{
+	text-align: center;
+	margin-top: 20px;
+	display: block;
+}
+.block-img img{
+	text-align: center;
+	margin: 0px 10px;
+	width: 40px;
+}
+
+}
