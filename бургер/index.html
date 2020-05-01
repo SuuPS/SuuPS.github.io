@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" type="text/css" href="css/reset.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<title>Burger</title>
+</head>
+<body>
+
+<header>
+	<div class="container">
+		<div class="header">
+			<div class="main-header">
+			<div class="search">
+				
+			<div><img src="img/поисковик.png"></div>
+			<div><input placeholder="Ваша любимая еда"></div>
+
+			</div>
+
+			<div class="main-heading">
+
+			<a href="#"><img src="img/bell.png"></a>
+			<a href="#"><img src="img/user PROFILE.png"></a>
+
+			</div>
+			</div>
+		</div>
+
+			<div class="head">
+			<img src="img/logo.png">
+			<h1>ПОДБОР РЕЦЕПТОВ</h1>
+			</div>
+
+			<div class="time-head"><h1>ПОДБОР РЕЦЕПТОВ</h1></div>
+
+			<div class="main-menu">
+				<div class="menu-block">
+					<h5><a href="#">РЕЦЕПТЫ</a></h5>
+				</div>
+				<div class="menu-block">
+					<h5><a href="#">ПРОДУКТЫ</a></h5>
+				</div>
+				<div class="menu-block">
+					<h5><a href="#">КАК ПРИГОТОВИТЬ</a></h5>
+				</div>
+				<div class="menu-block">
+					<h5><a href="#">КУЛИНАРНАЯ КНИГА</a></h5>
+				</div>
+				<div class="menu-block">
+					<h5><a href="#">ЗДОРОВЬЕ</a></h5>
+				</div>
+				<div class="menu-block">
+					<h5><a href="#">АВТОРЫ</a></h5>
+				</div>
+			</div>
+
+			<div class="head-menu">
+				<div class="wrap">
+					<div class="hover-wrap">
+						<h5>Выпечка и десерты</h5>
+						<img src="img/arrow.png">
+					</div>
+					<h6><a href="#">Булочки "Снежки"</a></h6>
+					<h6><a href="#">Булочки с бананом</a></h6>
+					<h6><a href="#">Тыквенный кекс</a></h6>
+					<h6><a href="#">Шарлотка с клубникой</a></h6>
+					<h6><a href="#">Шоколадный кекс</a></h6>
+				</div>
+								<div class="wrap wrap-2">
+					<div class="hover-wrap">
+						<h5>Любимое блюдо</h5>
+						<img src="img/arrow.png">
+					</div>
+					<h6><a href="#">Лагман</a></h6>
+					<h6><a href="#">Манты</a></h6>
+					<h6><a href="#">Борщ</a></h6>
+					<h6><a href="#">Шаурма</a></h6>
+					<h6><a href="#">Стейк</a></h6>
+				</div>
+								<div class="wrap wrap-3">
+					<div class="hover-wrap">
+						<h5>Любимая кухня</h5>
+						<img src="img/arrow.png">
+					</div>
+					<h6><a href="#">Русская кухня</a></h6>
+					<h6><a href="#">Китайская кухня</a></h6>
+					<h6><a href="#">Японская кухня</a></h6>
+					<h6><a href="#">французская кухня</a></h6>
+				</div>
+								<div class="wrap wrap-4">
+					<div class="hover-wrap">
+						<h5>любимое меню</h5>
+						<img src="img/arrow.png">
+					</div>
+					<h6><a href="#">Для похудния</a></h6>
+					<h6><a href="#">Для ПП</a></h6>
+					<h6><a href="#">Для мясоеда</a></h6>
+					<h6><a href="#">Для вегенов</a></h6>
+				</div>
+								<div class="wrap wrap-5">
+					<div class="hover-wrap">
+						<h5>сложность</h5>
+						<img src="img/arrow.png">
+					</div>
+					<h6><a href="#">Для школьника</a></h6>
+					<h6><a href="#">Для студента</a></h6>
+					<h6><a href="#">Для жены</a></h6>
+				</div>
+
+				<div class="wrap wrap-6">
+					<div class="hover-wrap">
+						<h5><a href="#">Ингредиенты</a></h5>
+						<img src="img/arrow.png">
+					</div>
+					<h4><a href="#">Подобрать рецепты</a></h4>
+				</div>
+
+				<div class="wrap-btn">
+					<a href="#">Подобрать рецепты</a>
+				</div>
+
+			</div>
+
+
+<div class="main-btn">
+	<div id="sidebar" onclick="openMenu()">
+	<div class="toggle-btn">
+		<img src="img/arrow_next_right.png">
+	</div>
+	<ul>
+
+		<div class="list-group">
+		<div class="flex-list">
+		<img class="meat" src="img/еда.png"><img src="img/arrow.png"></div>
+		<h5><a href="#">РЕЦЕПТЫ</a></h5>
+		<h5><a href="#">ПРОДУКТЫ</a></h5>
+		<h5><a href="#">КАК ПРИГОТОВИТЬ</a></h5>
+		<h5><a href="#">КУЛИНАРНАЯ КНИГА</a></h5>
+		<h5><a href="#">ЗДОРОВЬЕ</a></h5>
+		<h5><a href="#">АВТОРЫ</a></h5>
+		</div>
+		<div class="list-head list-head-1">
+		<div class="flex-heading">
+		<h4>Выпечка и десерты</h4><img src="img/arrow.png"></div>
+		<h6><a href="#">Булочки "Снежки"</a></h6>
+		<h6><a href="#">Булочки с бананом</a></h6>
+		<h6><a href="#">Тыквенный кекс</a></h6>
+		<h6><a href="#">арлотка с клубникой</a></h6>
+		<h6><a href="#">Шоколадный кекc</a></h6>
+		</div>
+
+		<div class="list-head list-head-1">
+		<div class="flex-heading">
+		<h4>Любимое блюдо</h4><img src="img/arrow.png"></div>
+		<h6><a href="#">Лагман</a></h6>
+		<h6><a href="#">Манты</a></h6>
+		<h6><a href="#">Борщ</a></h6>
+		<h6><a href="#">Шаурма</a></h6>
+		<h6><a href="#">Стейк</a></h6>
+		</div>
+
+		<div class="list-head list-head-3">
+		<div class="flex-heading">
+		<h4>Любимая кухня</h4><img src="img/arrow.png"></div>
+		<h6><a href="#">Русская кухня</a></h6>
+		<h6><a href="#">Китайская кухня</a></h6>
+		<h6><a href="#">Японская кухня</a></h6>
+		<h6><a href="#">Французская кухня</a></h6>
+		</div>
+
+		<div class="list-head list-head-4">
+		<div class="flex-heading">
+		<h4>Любимое меню</h4><img src="img/arrow.png"></div>
+		<h6><a href="#">Для похудения</a></h6>
+		<h6><a href="#">Для ПП</a></h6>
+		<h6><a href="#">Для мясоеда</a></h6>
+		<h6><a href="#">Для веганов</a></h6>
+		</div>
+
+		<div class="list-head list-head-5">
+		<div class="flex-heading">
+		<h4>Сложность</h4><img src="img/arrow.png"></div>
+		<h6><a href="#">Для Школьников</a></h6>
+		<h6><a href="#">Для Студентов</a></h6>
+		<h6><a href="#">Для Женщин</a></h6>
+		</div>
+
+		<div class="list-head list-head-6">
+		<div class="flex-heading">
+		<h4>Ингредиенты</h4><img src="img/arrow.png"></div>
+		<h3><a href="#">Подобрать рецепты</a></h3>
+		</div>
+
+
+
+	</ul>
+
+<script>
+	
+function openMenu() {
+	document.getElementById("sidebar").classList.toggle("active");
+}
+
+</script>
+</div>
+</div>
+
+
+
+</div>
+</header>
+
+<section>
+	<div class="container">
+		<div class="fons">
+			<div class="level-1">
+				<div class="lv">
+					<a href="#">
+					<h5>БЛЮДО ДНЯ</h5>
+					<h6>КУРИНЫЕ НОЖКИ НА ГРИЛЕ</h6>
+					<img class="lv-icon" src="img/ICONS.png">
+					<div class="hover-fon"></div>
+					<img class="lv-fon" src="img/fon-1.png">
+					</a>
+				</div>
+				<div class="lv lv-2">
+					<a href="#">
+					<h5>БЛЮДО ДНЯ</h5>
+					<h3>7 ЛУЧШИХ РЕЦЕПТОВ</h3>
+					<h4>НЕДЕЛИ</h4>
+					<img class="lv-icon lv-icon-2" src="img/ICONS.png">
+					<div class="hover-fon"></div>
+					<img class="lv-fon" src="img/fon-2.png">
+					</a>
+				</div>
+			</div>
+
+			<div class="level-2">
+				<div class="lev">
+				<a href="#">
+				<h3>КАК ПРИГОТОВИТЬ ПИРОГ В ОДНОЙ ПОСУДЕ 5 РЕЦЕПТОВ</h3>
+					<img src="img/fon-3.png">
+					<div class="hover-fon"></div>
+				</a>
+				</div>
+
+				<div class="level-2-1">
+				<div class="lev-2">
+				<a href="#">
+				<div class="cor">
+
+					<div class="cor-img">
+						<img src="img/ICONS-2.png">
+					</div>
+
+					<a href="#">ПОЛЕЗНОЕ</a>
+				</div>
+				<h4>КАК ПРИГОТОВИТЬ СЫРНЫЙ ТОРТ<br> С ОВОЩАМИ </h4>
+					<img class="lev2-img" src="img/fon-4.png">
+					<div class="hover-fon"></div>
+				</a>
+				</div>
+
+				<div class="lev-2">
+				<a href="#">
+				<h3>10 ПРОСТЫХ НАПИТКОВ В ЖАРУ</h3>
+					<img class="lev2-img" src="img/fon-5.png">
+					<div class="hover-fon"></div>
+				</a>
+				</div>
+				</div>
+
+			</div>
+
+				<div class="level-2">
+
+				<div class="level-2-1">
+				<div class="lev-2">
+				<a href="#">
+				<h4 class="top-lev-text">ЧТО ТАКОЕ МЁД?</h4>
+					<img class="lev2-img" src="img/fon-6.png">
+					<div class="hover-fon"></div>
+				</a>
+				</div>
+
+				<div class="lev-2">
+				<a href="#">
+				<h3>КАК ПРАВИЛЬНО ЗАМЕСИТЬ ДРОЖЕВОЕ ТЕСТО</h3>
+					<img class="lev2-img" src="img/fon-7.png">
+					<div class="hover-fon"></div>
+				</a>
+				</div>
+				</div>
+
+				<div class="lev">
+				<a href="#">
+				<h3>ЧЕЛОВЕК, КОТОРЫЙ ДЕЛАЕТ ЛУЧШИЕ МИТБОЛЫ В БЕЛЬГИИ</h3>
+					<img class="lv-3-img" src="img/fon-8.png">
+					<div class="hover-fon"></div>
+				</a>
+				</div>
+
+			</div>
+
+
+
+
+
+		</div>
+	</div>
+</section>
+
+
+<section>
+	<div class="container">
+		<div class="href-content">
+			<div class="line-img"><img src="img/logo.png"></div>
+			<h2>РЕЦЕПТЫ</h2>
+			<div class="function-href">
+				<h3><a href="#">Новые рецепты</a></h3>
+				<h3><a href="#">Популярные</a></h3>
+				<h3><a href="#">Рекомендуем</a></h3>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section>
+	<div class="container">
+		<div class="content content-1">
+			
+			<div class="got-content">
+				<div class="fon-content">
+					<div class="flex-fon-content">
+							<img src="img/content/Эллипс 1.svg">
+							<h6><a href="#">Daria Fedorenko</a></h6>
+					</div>
+				</div>
+
+				<div class="text-content">
+					<h3>Утиные ножки с овощами и грудинкой фасолью</h3>
+					<div class="text-content-flex">
+<div class="TFB"> <img src="img/content/t1.png"><h6>135 мин</h6></div>
+<div class="TFB"> <img src="img/content/t2.png"><h6>Cложно</h6></div>
+<div class="TFB"> <img src="img/content/t3.png"><h6>125 ккал</h6></div>
+					</div>
+					<p>говядина, масло топлёное, лук репчатый, 
+					   морковь, редька, перец сладкий, помидоры, 
+					   томат-пюре, картофель, чеснок, бульон мясной,
+				       соль, перец чёрный, зелень петрушки...</p>
+					<div class="text-content-foot">
+						<div class="text-left">
+							<img src="img/content/like.png">
+							<h6>16</h6>
+						</div>
+						<div class="text-right">
+							<a href="#"><img src="img/content/s1.png"></a>
+							<a href="#"><img src="img/content/s2.png"></a>
+							<a href="#"><img src="img/content/s3.png"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="got-content">
+				<div class="fon-content fon-content-2">
+					<div class="flex-fon-content">
+							<img src="img/content/Эллипс 1.svg">
+							<h6><a href="#">Daria Fedorenko</a></h6>
+					</div>
+				</div>
+
+				<div class="text-content">
+				<h3>Салат из свеклы с козьим сыром и медовой заправкой</h3>
+					<div class="text-content-flex">
+<div class="TFB"> <img src="img/content/t1.png"><h6>35 мин</h6></div>
+<div class="TFB"> <img src="img/content/t2.png"><h6>Cложно</h6></div>
+<div class="TFB"> <img src="img/content/t3.png"><h6>80 ккал</h6></div>
+					</div>
+					<p>говядина, масло топлёное, лук репчатый, морковь, редька, перец сладкий, помидоры, томат-пюре, картофель</p>
+					<div class="text-content-foot">
+						<div class="text-left">
+							<img src="img/content/like.png">
+							<h6>19</h6>
+						</div>
+						<div class="text-right">
+							<a href="#"><img src="img/content/s1.png"></a>
+							<a href="#"><img src="img/content/s2.png"></a>
+							<a href="#"><img src="img/content/s3.png"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+</div>
+
+
+<div class="content content-2">
+
+			<div class="got-content">
+				<div class="fon-content fon-content-3">
+					<div class="flex-fon-content">
+							<img src="img/content/Эллипс 1.svg">
+							<h6><a href="#">Daria Fedorenko</a></h6>
+					</div>
+				</div>
+
+				<div class="text-content">
+					<h3>Американский тыквенный пирог с корицей</h3>
+					<div class="text-content-flex">
+<div class="TFB"> <img src="img/content/t1.png"><h6>240 мин</h6></div>
+<div class="TFB"> <img src="img/content/t2.png"><h6>Cложно</h6></div>
+<div class="TFB"> <img src="img/content/t3.png"><h6>150 ккал</h6></div>
+					</div>
+					<p>лук репчатый, морковь, редька, перец сладкий, помидоры, томат-пюре, картофель, чеснок, бульон мясной,соль, перец чёрный, зелень петрушки...</p>
+					<div class="text-content-foot">
+						<div class="text-left">
+							<img src="img/content/like.png">
+							<h6>25</h6>
+						</div>
+						<div class="text-right">
+							<a href="#"><img src="img/content/s1.png"></a>
+							<a href="#"><img src="img/content/s2.png"></a>
+							<a href="#"><img src="img/content/s3.png"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="got-content">
+				<div class="fon-content fon-content-4">
+					<div class="flex-fon-content">
+							<img src="img/content/Эллипс 1.svg">
+							<h6><a href="#">Daria Fedorenko</a></h6>
+					</div>
+				</div>
+
+				<div class="text-content">
+					<h3>Салат «Цезарь» традиционный фасолью</h3>
+					<div class="text-content-flex">
+<div class="TFB"> <img src="img/content/t1.png"><h6>107 мин</h6></div>
+<div class="TFB"> <img src="img/content/t2.png"><h6>Cложно</h6></div>
+<div class="TFB"> <img src="img/content/t3.png"><h6>150 ккал</h6></div>
+					</div>
+					<p>говядина, масло топлёное, лук репчатый, морковь, редька, перец сладкий, помидоры, томат-пюре, картофель, чеснок, бульон мясной,соль, перец чёрный</p>
+					<div class="text-content-foot">
+						<div class="text-left">
+							<img src="img/content/like.png">
+							<h6>25</h6>
+						</div>
+						<div class="text-right">
+							<a href="#"><img src="img/content/s1.png"></a>
+							<a href="#"><img src="img/content/s2.png"></a>
+							<a href="#"><img src="img/content/s3.png"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+
+
+</div>
+
+
+
+<div class="content content-3">
+
+			<div class="got-content">
+				<div class="fon-content fon-content-5">
+					<div class="flex-fon-content">
+							<img src="img/content/Эллипс 1.svg">
+							<h6><a href="#">Daria Fedorenko</a></h6>
+					</div>
+				</div>
+
+				<div class="text-content">
+					<h3>Соте из брюссельской капусты с варено-копченым окороком</h3>
+					<div class="text-content-flex">
+<div class="TFB"> <img src="img/content/t1.png"><h6>140 мин</h6></div>
+<div class="TFB"> <img src="img/content/t2.png"><h6>Cложно</h6></div>
+<div class="TFB"> <img src="img/content/t3.png"><h6>160 ккал</h6></div>
+					</div>
+					<p>говядина, масло топлёное, лук репчатый, 
+морковь, редька, перец сладкий, помидоры, 
+томат-пюре, картофель, чеснок, бульон мясной,
+соль, перец чёрный, зелень петрушки...</p>
+					<div class="text-content-foot">
+						<div class="text-left">
+							<img src="img/content/like.png">
+							<h6>12</h6>
+						</div>
+						<div class="text-right">
+							<a href="#"><img src="img/content/s1.png"></a>
+							<a href="#"><img src="img/content/s2.png"></a>
+							<a href="#"><img src="img/content/s3.png"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="got-content">
+				<div class="fon-content fon-content-6">
+					<div class="flex-fon-content">
+							<img src="img/content/Эллипс 1.svg">
+							<h6><a href="#">Daria Fedorenko</a></h6>
+					</div>
+				</div>
+
+				<div class="text-content">
+					<h3>Жареные баклажаны с помидорами</h3>
+					<div class="text-content-flex">
+<div class="TFB"> <img src="img/content/t1.png"><h6>30 мин</h6></div>
+<div class="TFB"> <img src="img/content/t2.png"><h6>Cложно</h6></div>
+<div class="TFB"> <img src="img/content/t3.png"><h6>100 ккал</h6></div>
+					</div>
+					<p>лук репчатый, морковь, редька, перец сладкий, помидоры, томат-пюре, картофель, чеснок, бульон мясной,соль, перец чёрный, зелень петрушки...</p>
+					<div class="text-content-foot">
+						<div class="text-left">
+							<img src="img/content/like.png">
+							<h6>31</h6>
+						</div>
+						<div class="text-right">
+							<a href="#"><img src="img/content/s1.png"></a>
+							<a href="#"><img src="img/content/s2.png"></a>
+							<a href="#"><img src="img/content/s3.png"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+
+
+</div>
+
+
+<div class="content content-4">
+
+			<div class="got-content">
+				<div class="fon-content fon-content-7">
+					<div class="flex-fon-content">
+							<img src="img/content/Эллипс 1.svg">
+							<h6><a href="#">Daria Fedorenko</a></h6>
+					</div>
+				</div>
+
+				<div class="text-content">
+					<h3>Наварен из говядины</h3>
+					<div class="text-content-flex">
+<div class="TFB"> <img src="img/content/t1.png"><h6>25 мин</h6></div>
+<div class="TFB"> <img src="img/content/t2.png"><h6>Cложно</h6></div>
+<div class="TFB"> <img src="img/content/t3.png"><h6>130 ккал</h6></div>
+					</div>
+					<p>говядина, масло топлёное, лук репчатый, 
+морковь, редька, перец сладкий, помидоры, 
+томат-пюре, картофель, чеснок, бульон мясной,
+соль, перец чёрный, зелень петрушки...</p>
+					<div class="text-content-foot">
+						<div class="text-left">
+							<img src="img/content/like.png">
+							<h6>33</h6>
+						</div>
+						<div class="text-right">
+							<a href="#"><img src="img/content/s1.png"></a>
+							<a href="#"><img src="img/content/s2.png"></a>
+							<a href="#"><img src="img/content/s3.png"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="got-content">
+				<div class="fon-content fon-content-8">
+					<div class="flex-fon-content">
+							<img src="img/content/Эллипс 1.svg">
+							<h6><a href="#">Daria Fedorenko</a></h6>
+					</div>
+				</div>
+
+				<div class="text-content">
+					<h3>Брюссельская капуста с белым соусом с сыром</h3>
+					<div class="text-content-flex">
+<div class="TFB"> <img src="img/content/t1.png"><h6>30 мин</h6></div>
+<div class="TFB"> <img src="img/content/t2.png"><h6>Cложно</h6></div>
+<div class="TFB"> <img src="img/content/t3.png"><h6>170 ккал</h6></div>
+					</div>
+					<p>лук репчатый, морковь, редька, перец сладкий, помидоры, томат-пюре, картофель, чеснок, бульон мясной,соль, перец чёрный, зелень петрушки...</p>
+					<div class="text-content-foot">
+						<div class="text-left">
+							<img src="img/content/like.png">
+							<h6>35</h6>
+						</div>
+						<div class="text-right">
+							<a href="#"><img src="img/content/s1.png"></a>
+							<a href="#"><img src="img/content/s2.png"></a>
+							<a href="#"><img src="img/content/s3.png"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+
+
+</div>
+
+
+<div class="content content-5">
+
+			<div class="got-content">
+				<div class="fon-content fon-content-9">
+					<div class="flex-fon-content">
+							<img src="img/content/Эллипс 1.svg">
+							<h6><a href="#">Daria Fedorenko</a></h6>
+					</div>
+				</div>
+
+				<div class="text-content">
+					<h3>Печеночный торт с морковью и луком</h3>
+					<div class="text-content-flex">
+<div class="TFB"> <img src="img/content/t1.png"><h6>40 мин</h6></div>
+<div class="TFB"> <img src="img/content/t2.png"><h6>Cложно</h6></div>
+<div class="TFB"> <img src="img/content/t3.png"><h6>150 ккал</h6></div>
+					</div>
+					<p>говядина, масло топлёное, лук репчатый, 
+морковь, редька, перец сладкий, помидоры, 
+томат-пюре, картофель, чеснок, бульон мясной,
+соль, перец чёрный, зелень петрушки...</p>
+					<div class="text-content-foot">
+						<div class="text-left">
+							<img src="img/content/like.png">
+							<h6>40</h6>
+						</div>
+						<div class="text-right">
+							<a href="#"><img src="img/content/s1.png"></a>
+							<a href="#"><img src="img/content/s2.png"></a>
+							<a href="#"><img src="img/content/s3.png"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="got-content">
+				<div class="fon-content fon-content-10">
+					<div class="flex-fon-content">
+							<img src="img/content/Эллипс 1.svg">
+							<h6><a href="#">Daria Fedorenko</a></h6>
+					</div>
+				</div>
+
+				<div class="text-content">
+				<h3>Классический крабовый салат с огурцом и мидиями</h3>
+					<div class="text-content-flex">
+<div class="TFB"> <img src="img/content/t1.png"><h6>45 мин</h6></div>
+<div class="TFB"> <img src="img/content/t2.png"><h6>Cложно</h6></div>
+<div class="TFB"> <img src="img/content/t3.png"><h6>170 ккал</h6></div>
+					</div>
+					<p>лук репчатый, морковь, редька, перец сладкий, помидоры, томат-пюре, картофель, чеснок, бульон мясной,соль, перец чёрный, зелень петрушки...</p>
+					<div class="text-content-foot">
+						<div class="text-left">
+							<img src="img/content/like.png">
+							<h6>35</h6>
+						</div>
+						<div class="text-right">
+							<a href="#"><img src="img/content/s1.png"></a>
+							<a href="#"><img src="img/content/s2.png"></a>
+							<a href="#"><img src="img/content/s3.png"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+
+
+</div>
+
+
+	</div>
+</section>
+
+<section>
+	<div class="container">
+		<div class="href-content href-content-2">
+			<div class="line-img"><img src="img/logo.png"></div>
+			<h2>№ГОРЯЧАЯПОДБОРКА</h2>
+		</div>
+	</div>
+</section>
+
+<section>
+	<div class="container">
+		<div class="slider">
+			<a href="#">
+			<div class="slider-wrap">
+				<h6>ПОХМЕЛЬНЫЕ РЕЦЕПТЫ</h6>
+			</div>
+		    </a>
+		    <a href="#">
+			<div class="slider-wrap slider-wrap-2">
+				<h6>ПОХМЕЛЬНЫЕ РЕЦЕПТЫ</h6>
+			</div>
+		    </a>
+		    <a href="#">
+			<div class="slider-wrap slider-wrap-3">
+				<h6>ПОХМЕЛЬНЫЕ РЕЦЕПТЫ</h6>
+			</div>
+		    </a>
+		    <a href="#">
+			<div class="slider-wrap slider-wrap-4">
+				<h6>ПОХМЕЛЬНЫЕ РЕЦЕПТЫ</h6>
+			</div>
+		    </a>
+		</div>
+	</div>
+</section>
+
+<section>
+	<div class="container">
+		<h2 class="creat-h2">ТОП АВТОРОВ</h2>
+		<div class="creaters">
+			
+			<div class="creat-block">
+			<div class="creat"></div>
+			<h4>Хью Джекман</h4>
+			</div>
+
+			<div class="creat-block">
+			<h4>Том Круз</h4>
+			<div class="creat creat-2"></div>
+			</div>
+
+			<div class="creat-block">
+			<div class="creat creat-3"></div>
+			<h4>Эндрю Гарфилд</h4>
+			</div>
+
+			<div class="creat-block">
+			<h4>Мэттью МакКонахи</h4>
+			<div class="creat creat-4"></div>
+			</div>
+
+			<div class="creat-block">
+			<div class="creat creat-5"></div>
+			<h4>Джейк Джилленхол</h4>
+			</div>
+
+		</div>
+	</div>
+</section>
+
+<section>
+		<div class="last-section">
+
+			<h5>ПОДПИШИТЕСЬ НА РАССЫЛКУ РЕЦЕПТОВ И СОВЕТОВ</h5>
+			<div class="last-input">
+
+			<input type="input" name="input" 
+			placeholder="Адрес электронной почты">
+
+			<div class="last-mail">
+			<a href="#"><img src="img/icon-ios7-arrow-back-512.png"></a>
+			</div>
+
+			</div>
+		</div>
+</section>
+
+<footer>
+	<div class="containerr">
+		<div class="footer">
+			<div class="footer-left">
+
+				<a href="#">ГЛАВНАЯ</a>
+				<a href="#">РЕЦЕПТЫ</a>
+				<a href="#">ИДЕИ</a>
+				<a href="#">ЖУРНАЛ</a>
+				<a href="#">АВТОРЫ</a>
+				<a href="#">РЕКЛАМА</a>
+				<a href="#">FAQ</a>
+
+			</div>
+			<div class="footer-right">
+				<a href="#"><img src="img/sm (1).png"></a>
+				<a href="#"><img src="img/sm (2).png"></a>
+				<a href="#"><img src="img/sm (3).png"></a>
+				<a href="#"><img src="img/sm (4).png"></a>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+
+
+<link rel="stylesheet" type="text/css" href="css/1100-970.css">
+<link rel="stylesheet" type="text/css" href="css/970-750.css">
+<link rel="stylesheet" type="text/css" href="css/750.css">
+<link rel="stylesheet" type="text/css" href="css/530.css">
+<link rel="stylesheet" type="text/css" href="css/420.css">
+<link rel="stylesheet" type="text/css" href="css/360.css">
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
