@@ -1,6 +1,9 @@
 @media only screen and (max-width: 750px) {
 
-
+.containerr{
+	width: 100%;
+	margin: auto;
+}
 .container{
 	border: 0px solid black;
 	max-width: 100%;
