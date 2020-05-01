@@ -1,5 +1,9 @@
 @media only screen and (max-width: 970px) {
 
+	.containerr{
+	width: 750px;
+	margin: auto;
+}
 .container{
 	width: 750px;
 }
