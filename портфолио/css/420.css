@@ -522,6 +522,7 @@ form button{
 }
 
 .sm-icon{
+margin-top: 15px;
     width: 50%;
     height: 150px;
     display: -webkit-flex;
@@ -537,7 +538,6 @@ form button{
     flex-wrap: wrap;
 }
 .sm-icon img{
-	margin-top: 15px;
     margin: 5px;
     width: 30px;
 }
