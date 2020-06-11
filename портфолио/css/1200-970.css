@@ -1,0 +1,239 @@
+@media only screen and (max-width: 1200px) {
+
+.container{
+	width: 970px;
+}
+.head{
+    height: 100px;
+    font-size: 36px;
+}
+#nav{
+    height: 100px;
+    width: 550px;
+}
+.heading{
+    top: 400px;
+    position: absolute;
+    width: 100%;
+}
+.heading-text{
+	z-index: 4;
+}
+
+.profille{
+    width: 350px;
+
+}
+.profille img{
+	margin-top: 20px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 400px;
+    box-shadow: 10px 10px 25px rgba(0,0,0,20);
+}
+
+.text-about{
+    box-shadow: 15px 5px 60px rgba(0,0,10,20);
+    max-width: 600px;
+    height: 460px;
+}
+
+.nav-tabs{
+    max-width: 600px;
+    height: 500px;
+}
+
+#text-about-me{
+    transition: 0.5s;
+    min-width: 600px;
+    height: 400px;
+    padding: 30px;
+}
+.skils{
+    padding: 30px;
+    text-transform: uppercase;
+    min-width: 600px;
+    height: 400px;
+}
+
+.label-info{
+    width: 100%;
+    height: 360px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+.label-content{
+    text-align: center;
+    width: 315px;
+    box-shadow: 5px 5px 15px rgba(0,0,10,20);
+}
+.label-img{
+    transition: 1s;
+    cursor: pointer;
+    background-image: url(../img/work-1.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    width: 315px;
+    height: 300px;
+}
+.label-img-2{
+    background-image: url(../img/work-2.webp);
+}
+.label-img-3{
+    background-image: url(../img/work-3.png);
+    
+}
+.sim-slider {
+  width: 100%;
+  height: 350px;
+  min-width: 320px;
+  margin: 20px auto;
+  background-color: white;
+  position: relative;
+}
+
+.sim-slider-element a{
+    width: 400px;
+    height: 320px;
+    margin-right: 20px;
+}
+
+
+
+footer{
+    width: 100%;
+    height: 400px;
+    margin: auto;
+    background-color: #333333;
+    padding-top: 30px;
+}
+form{
+    width: 380px;
+    height: 350px;
+    border-right: 8px solid #999999;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-right: 10px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-direction: column;
+}
+form h6{
+    font-family: 'Proxima Nova Lt';
+    color: #D8D8D8;
+    font-size: 25px;
+}
+form input{
+    margin-top: 15px;
+    width: 100%;
+    height: 40px;
+    background-color: #333333;
+    border: none;
+    border-bottom: 2px solid #fff;
+    color: #D8D8D8;
+    padding: 5px;
+    font-size: 18px;
+}
+.comment{
+    height: 60px;
+}
+form button{
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'Proxima Nova Lt';
+    width: 130px;
+    height: 35px;
+    font-size: 20px;
+    background-color: #D8D8D8;
+}
+
+.footer{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.contact{
+    font-family: 'Proxima Nova Lt';
+    width: 290px;
+    height: 350px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    font-size: 25px;
+    padding-left: 20px;
+}
+.contact a{
+    font-family: 'Proxima Nova Lt';
+    color: #D8D8D8;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.sm{
+    width: 280px;
+    height: 350px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-direction: column;
+}
+.sm h1{
+    font-family: 'Proxima Nova Lt';
+    color: #fff;
+    font-size: 25px;
+}
+
+.sm p{
+    font-family: 'Proxima Nova Lt';
+    color: #D8D8D8;
+    font-size: 20px;
+    margin: 10px 0px;
+}
+.phone-contact{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    height: 50px;
+    -ms-align-items: center;
+    align-items: center;
+}
+.phone-contact img{
+    height: 20px;
+}
+
+.sm-icon{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+}
+.sm-icon img{
+    width: 40px;
+}
+
+}
