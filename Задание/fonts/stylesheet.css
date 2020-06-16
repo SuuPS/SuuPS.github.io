@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'PF DinText Pro';
+    src: url('PFDinTextPro-Medium.eot');
+    src: url('PFDinTextPro-Medium.eot?#iefix') format('embedded-opentype'),
+        url('PFDinTextPro-Medium.woff2') format('woff2'),
+        url('PFDinTextPro-Medium.woff') format('woff'),
+        url('PFDinTextPro-Medium.ttf') format('truetype'),
+        url('PFDinTextPro-Medium.svg#PFDinTextPro-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DINPro';
+    src: url('DINPro-Bold.eot');
+    src: url('DINPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('DINPro-Bold.woff2') format('woff2'),
+        url('DINPro-Bold.woff') format('woff'),
+        url('DINPro-Bold.ttf') format('truetype'),
+        url('DINPro-Bold.svg#DINPro-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
