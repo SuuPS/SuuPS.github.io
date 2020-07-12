@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="50" viewBox="0 0 50 50">
+  <g id="Close" transform="translate(-1452 -736)">
+    <g id="Эллипс_1" data-name="Эллипс 1" transform="translate(1452 736)" fill="none" stroke="#f1cdb3" stroke-width="2">
+      <circle cx="25" cy="25" r="25" stroke="none"/>
+      <circle cx="25" cy="25" r="24" fill="none"/>
+    </g>
+    <image id="cancel" width="14" height="14" transform="translate(1470 754)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABHNCSVQICAgIfAhkiAAAAIVJREFUKFOtkrENhDAQBMfhh5SxET0QE1ImIfFTA5G7gJAUHTJIL84gmXe457H21hskjUANdDHGLzdHUgP0wBQkzUAFrECbgxM0AB9gMdBeOQQX9u4Ec3YH52Y7mIPTyHVzghnYZNvpssIP6MAmuXv/B3SCeLbqpfcYTtF3FBfgTeWKSr4BuIJyzySuwBAAAAAASUVORK5CYII="/>
+  </g>
+</svg>

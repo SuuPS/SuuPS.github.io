@@ -1,0 +1,158 @@
+@media only screen and (max-width: 1170px){
+
+.container{
+	width: 900px;
+	margin: auto;
+}
+
+
+header{
+	height: 725px;
+}
+
+.section-2{
+	background-color: #e8e7e7;
+	height: 800px;
+}
+
+
+.main-text{
+	text-align: center;
+	color: #545454;
+	font-size: 30px;
+	font-family:  'Georgia';
+	padding: 50px 0px 50px 0px;
+}
+.open-next-page{
+	display: block;
+	text-align: center;
+	margin: auto;
+	width: 230px;
+	background-color: #f1cdb3;
+	color: #292929;
+	font-size: 17px;
+	font-family:  'Georgia';
+	padding: 15px 0px 17px 0px;
+	border-radius: 26px;
+}
+
+.sitebar{
+	position: relative;
+}
+.slider-hidden{
+	width: 780px;
+	height: 400px;
+	margin: auto;
+	margin-bottom: 40px;
+}
+
+
+.slider {
+    position: relative;
+     
+    }
+    .slider-center{
+    overflow: hidden;
+    }
+
+.slider__wrapper {
+    display: flex;
+    transition: transform 0.6s ease;
+    }
+
+.slider__item {
+		background-color: #fafafa;
+    flex: 0 0 50%;
+    max-width: 33.333333%;
+    height: 400px;
+    text-align: center;
+    border-right: 10px solid #e8e7e7;
+}
+
+.slider__control {
+	cursor: pointer;
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	transition: 0.2s;
+	border-radius: 100%;
+
+}
+.slider__control:hover{
+	background-color: #F1CDB3;
+}
+
+.slider__control::before {
+    content: '';
+    display: inline-block;
+}
+
+.slider__control_left{
+    background-image: url("../img/Left Arrow.svg");
+    position: relative;
+    left: -60px;
+    top: -230px;
+}
+
+.slider__control_right{
+	background-image: url("../img/Right Arrow.svg");
+	position: relative;
+	right: -730px;
+	top: -230px;
+}
+.slider-object h6{
+	font-family:  'Georgia';
+	font-size: 20px;
+	color: #545454;
+	margin: 20px 0px;
+}
+.slider-object button{
+	color: #292929;
+	font-size: 17px;
+	width: 180px;
+	height: 50px;
+	border: 3px solid #F1CDB3;
+	border-radius: 26px;
+	transition: 0.2s;
+}.slider-object button:hover{background-color:  #F1CDB3}
+
+
+
+
+
+.donat{
+	width: 100%;
+	height: 300px;
+	margin: auto;
+	padding-top: 60px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+
+.about-donat{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: space-between;
+	width: 390px;
+}
+.about-donat h1{
+	font-family:  'Georgia';
+	font-size: 32px;
+	color: #545454;
+}
+.about-donat h6{
+	font-family:  'Georgia';
+	font-size: 14px;
+	color: #545454;
+}
+.modal{
+	display: none;
+}
+}
