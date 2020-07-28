@@ -71,7 +71,7 @@ btn.onclick = function ajaGet(argument) {
 		}
 	}
 
-	register.open('GET', 'https://suups.github.io/%D1%81%D0%BE%D0%B1%D0%B0%D0%BA%D0%B5%D0%BD/');
+	register.open('GET', 'Access-Control-Allow-Origin:https://zoom-sp.herokuapp.com/groups');
 	register.send();
 
 
