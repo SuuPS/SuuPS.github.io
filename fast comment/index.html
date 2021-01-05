@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>FastCOM</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+</head>
+<body>
+
+<header>
+	<dir class="container">
+		<h1 class="text-center">FastComment</h1>
+		<h3 class="text-center">Коммент за один клик</h3>
+	</dir>
+	<div class="container">
+		<div class="content">
+
+		<div class="go">Не работает интернет передал в 502</div>
+		<div class="go">Не работает интернет у юрика передал в 507</div>
+        <div class="go">Данные ЛС</div>
+		<div class="go">выдал ВД на дней 3</div>
+		<div class="go">Данные ЛС + Выдал ВД на дней 3</div>
+		<div class="go">Данные ЛС + Выдал ВД с разрешение ответ менеджера на дней 3</div>
+		<div class="go">По поводу сроков подключения передал ответ менеджеру</div>
+		<div class="go">нету ЭЭ на КВУ</div>
+		<div class="go">график и адреса офисов</div>
+		<div class="go">Абонент оплачивал но денги не поступили попросил обратиться в службу через которую он оплачивал</div>
+		<div class="go">Забыл пароль от wifi роутера передал в 502 для настройки</div>
+		<div class="go">Обьяснил что каналы не удаляются можно заблокировать</div>
+		<div class="go">Абонента принформировал о пароле для взрослых каналов 0000</div>
+		<div class="go">канал как  у абонента так и у нас общие передал инфо в канал ЦУС по джабберу</div>
+		<div class="go">Проинформмировал об услуге заморозка ЧC 50сом КВ 0сом</div>
+
+		</div>
+
+<h1 class="text-center">Задачи</h1>
+
+		<div class="content">
+
+		<div class="go">Просьба призвести перерасчет за</div>
+		<div class="go">Просьба связаться с абонентом</div>
+        <div class="go">о выезде специалистов 500с и сварка разварка 500с + ОВК кабель 2000с, точную сумму специалисты назовут на месте, абонент оповещен</div>
+		<div class="go">О стоимости выезда 500с и за каждый 1м кабля 40с оповещен</div>
+		<div class="go">Просьба удалить УЗ Биллинг и СРМ в связи с расторжением</div>
+		<div class="go">Просьба не начислять АП в связи с расторжением</div>
+		<div class="go">Абонент просит отменить выезд специалистов по причине</div>
+		</div>
+	</div>
+</header>
+
+<div class="box">Текст скопирован!</div>
+
+<script>
+	
+let go = document.querySelectorAll('.go');
+let myAlert = document.querySelector('.box');
+
+
+for (let i = 0; i <= go.length; i++) {
+
+go[i].onclick = function () {
+	navigator.clipboard.writeText(go[i].innerHTML);
+	myAlert.classList.add('active');
+	setTimeout( () => myAlert.classList.remove('active'), 700)
+}
+
+}
+
+</script>
+</body>
+</html>
+
